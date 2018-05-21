@@ -1,0 +1,56 @@
+html,body {
+	height: 100%;
+    margin: 0;
+    font-family: 'Montserrat', 'sans-serif';
+    color: #424242;
+    overflow: hidden;
+}
+
+span {
+	display: block;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+button {
+	line-height: 30px;
+    padding: 5px 20px;
+    font-family: 'Montserrat', 'sans-serif';
+    color: black;
+    font-size: 14px;
+    background: white;
+    border: 1px solid #424242;
+    cursor: pointer;
+}
+button:focus {
+	outline: none;
+}
+
+p {
+	font-size: 40vmin;
+    text-align: center;
+    margin: 0;
+}
+
+p.limit {
+	font-size: 55px;
+    line-height: 100px;
+}
+
+.display {
+	text-align: center;
+    display: table;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.display .wrap {
+	display: table-cell;
+    vertical-align: middle;
+}
+
+.hide {
+	display: none !important;
+}
